@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
 Name=Image Slideshow
-Exec=/home/pi/start_slideshow.sh
+Exec=<your home directory>/start_slideshow.sh
