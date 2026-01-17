@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
-Name=Image Slideshow
+Name=Poor Mans Slideshow
 Exec=<your home directory>/start_slideshow.sh
