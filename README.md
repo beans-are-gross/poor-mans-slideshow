@@ -1,14 +1,15 @@
 # Poor Man's Slideshow Install
+Raspberry Pi Desktop is required for this install.
 
 ## Step 1
-Install tools
+Install tools.
 ```
 sudo apt update
 sudo apt install feh x11-xserver-utils unclutter samba -y
 ```
 
 ## Step 2
-Setup Samba
+Setup Samba.
 
 > [!NOTE]
 > This step is optional, but useful for adding the files to the loop from a different computer.
