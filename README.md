@@ -4,7 +4,7 @@
 Install tools
 ```
 sudo apt update
-sudo apt install feh x11-xserver-utils samba -y
+sudo apt install feh x11-xserver-utils unclutter samba -y
 ```
 
 ## Step 2
