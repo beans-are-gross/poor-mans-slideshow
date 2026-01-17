@@ -5,7 +5,7 @@ Raspberry Pi Desktop is required for this install.
 Install tools.
 ```
 sudo apt update
-sudo apt install feh x11-xserver-utils unclutter samba -y
+sudo apt install git feh x11-xserver-utils unclutter samba -y
 ```
 
 ## Step 2
@@ -36,6 +36,13 @@ sudo chmod 775 <your folder>
 ```
 
 ## Step 3
+Clone the repository.
+```
+git clone https://github.com/beans-are-gross/poor-mans-slideshow.git
+cd poor-mans-slideshow
+```
+
+## Step 4
 Edit the 'start_slideshow.sh' file and add update the 'loopDir' variable to match the directory of your images.
 ```
 sudo nano start_slideshow.sh
@@ -47,7 +54,7 @@ mv start_slideshow.sh ~/start_slideshow.sh
 chmod +x ~/start_slideshow.sh
 ```
 
-## Step 4
+## Step 5
 Edit the 'slideshow.desktop' file and update the 'Exec' line to match the directory of where the 'start_slideshow.sh' file is located.
 
 If you used the command above and need to know where the file was placed, run:
@@ -67,7 +74,7 @@ mkdir -p ~/.config/autostart
 mv slideshow.desktop ~/.config/autostart
 ```
 
-## Step 5
+## Step 6
 Change your display to X11 instead of Wayland.
 
 Open a terminal and enter:
@@ -77,7 +84,7 @@ sudo raspi-config
 
 Go to 'Advanced Options > Wayland' and select 'X11'.
 
-## Step 6
+## Step 7
 Reboot your Pi and enjoy the Poor Man's Slideshow.
 
 **Credits**: Developed with the assistance of Gemini, an AI from Google.
