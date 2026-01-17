@@ -1,4 +1,4 @@
-# Simple Slideshow Install
+# Poor Man's Slideshow Install
 
 ## Step 1
 Install tools
@@ -49,4 +49,4 @@ sudo raspi-config
 Go to 'Advanced Options > Wayland' and select 'X11'.
 
 ## Step 6
-Reboot your Pi and enjoy the poor mans slideshow.
+Reboot your Pi and enjoy the Poor Man's Slideshow.
