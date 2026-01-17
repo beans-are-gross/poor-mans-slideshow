@@ -36,8 +36,12 @@ sudo chmod 775 <your folder>
 ```
 
 ## Step 3
-Put the 'start_slideshow.sh' file into your home directory and add execute permissions.
+Edit the 'start_slideshow.sh' file and add update the 'loopDir' variable to match the directory of your images.
+```
+sudo nano start_slideshow.sh
+```
 
+Then, move the 'start_slideshow.sh' file into your home directory and add execute permissions.
 ```
 mv start_slideshow.sh ~/start_slideshow.sh
 chmod +x ~/start_slideshow.sh
