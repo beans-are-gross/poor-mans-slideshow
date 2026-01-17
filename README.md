@@ -55,7 +55,7 @@ If you used the command above and need to know where the file was placed, run:
 cd ~ && pwd
 ```
 
-Put the results of that command into to the 'Exec' line where it says '<your home directory.'.
+Put the results of that command into to the 'Exec' line where it says '<your home directory>'.
 ```
 sudo nano slideshow.desktop
 ```
