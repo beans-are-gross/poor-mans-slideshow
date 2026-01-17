@@ -2,3 +2,4 @@
 Type=Application
 Name=Poor Mans Slideshow
 Exec=<your home directory>/start_slideshow.sh
+Terminal=false
