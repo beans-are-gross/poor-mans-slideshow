@@ -87,4 +87,10 @@ Go to 'Advanced Options > Wayland' and select 'X11'.
 ## Step 7
 Reboot your Pi and enjoy the Poor Man's Slideshow.
 
+## Notes
+If you ever need to exit the slideshow and go to the desktop, press the escape key. To start the slideshow again, reboot your pi, or run:
+```
+~/start_slideshow.sh
+```
+
 **Credits**: Developed with the assistance of Gemini, an AI from Google.
