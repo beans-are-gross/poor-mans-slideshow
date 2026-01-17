@@ -17,10 +17,22 @@ Setup Samba.
 Add the contents below to /etc/samba/smb.conf:
 ```
 [loop]
-  path = /home/pi/Pictures
+  path = <your folder>
   browseable = yes
   read only = no
   guest ok = no
+```
+
+Then, add a user to connect to samba with:
+```
+sudo smbpasswd -a <username>
+```
+> [!IMPORTANT]
+> The username you enter must already exist on the OS.
+
+Finally, fix the folder permissions:
+```
+sudo chmod 775 <your folder>
 ```
 
 ## Step 3
@@ -40,7 +52,7 @@ mv slideshow.desktop ~/.config/autostart
 ```
 
 ## Step 5
-Change your desktop to X11 instead of Wayland.
+Change your display to X11 instead of Wayland.
 
 Open a terminal and enter:
 ```
@@ -51,3 +63,5 @@ Go to 'Advanced Options > Wayland' and select 'X11'.
 
 ## Step 6
 Reboot your Pi and enjoy the Poor Man's Slideshow.
+
+**Credits**: Developed with the assistance of Gemini, an AI from Google.
