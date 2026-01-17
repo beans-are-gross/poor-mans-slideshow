@@ -48,6 +48,18 @@ chmod +x ~/start_slideshow.sh
 ```
 
 ## Step 4
+Edit the 'slideshow.desktop' file and update the 'Exec' line to match the directory of where the 'start_slideshow.sh' file is located.
+
+If you used the command above and need to know where the file was placed, run:
+```
+cd ~ && pwd
+```
+
+Put the results of that command into to the 'Exec' line where it says '<your home directory.'.
+```
+sudo nano slideshow.desktop
+```
+
 Create the autostart folder and put the 'slideshow.desktop' file into ~/.config/autostart
 
 ```
