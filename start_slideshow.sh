@@ -14,6 +14,7 @@ find "$loopDir" \( -name "._*" -o -name "thumbs.db" -o -name "desktop.ini" \) -d
 
 while true; do            # Loop forever just incase a file in the loop isnt an image file.
   feh -F -Z -Y -z -D $loopTime --auto-rotate --reload 60 --quiet --recursive $loopDir
+  #!!!         ^^ Remove these two characters to turn off randomization. 
 
   if [ $? -eq 0 ]; then   # Check if the esc key was pressed and end the loop.
     break
