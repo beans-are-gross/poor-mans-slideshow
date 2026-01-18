@@ -43,7 +43,7 @@ cd poor-mans-slideshow
 ```
 
 ## Step 4
-Edit the 'start_slideshow.sh' file and add update the 'loopDir' variable to match the directory of your images.
+Edit the 'start_slideshow.sh' file and add update the 'loopDir' variable to match the directory of your images. You can also edit the 'loopTime' variable to change how long it stays on a picture before moving on.
 ```
 sudo nano start_slideshow.sh
 ```
