@@ -88,9 +88,24 @@ Go to 'Advanced Options > Wayland' and select 'X11'.
 Reboot your Pi and enjoy the Poor Man's Slideshow.
 
 ## Notes
+### Exiting the Slideshow
 If you ever need to exit the slideshow and go to the desktop, press the escape key. To start the slideshow again, reboot your pi, or run:
 ```
 ~/start_slideshow.sh
 ```
+
+### File Sorting
+The program sorts files character by character. Below is an example of the sorting:
+* 1-slide.png
+* 10-slide.png
+* 2-slide.png
+
+To work around this, name your files like this:
+* <ins>**0**</ins>1-slide.png
+* <ins>**0**</ins>2-slide.png
+* 10-slide.png
+
+>[!NOTE]
+>To use random sorting instead: edit the 'start_slideshow.sh' file and add '-z' to the feh command.
 
 **Credits**: Developed with the assistance of Gemini, an AI from Google.
