@@ -108,4 +108,5 @@ To work around this, name your files like this:
 >[!NOTE]
 >To use random sorting instead: edit the 'start_slideshow.sh' file and add '-z' to the feh command.
 
-**Credits**: Developed with the assistance of Gemini, an AI from Google.
+### Credits
+Developed with the assistance of Gemini, an AI from Google.
