@@ -5,9 +5,9 @@ loopTime=10               # Edit this line to change the time it stays on a pict
 
 sleep 5                   # Wait for the desktop to be ready.
 
-xset s off                # Disable screen saver timer
-xset -dpms                # Disable Power Management (the 10-minute shutdown)
-xset s noblank            # Prevent the screen from going black
+xset s off                # Disable screen saver timer.
+xset -dpms                # Disable Power Management (the 10-minute shutdown).
+xset s noblank            # Prevent the screen from going black.
 
 # Deletes Mac metadata, Windows thumbnails, and Linux thumbnails
 find "$loopDir" \( -name "._*" -o -name "thumbs.db" -o -name "desktop.ini" \) -delete
