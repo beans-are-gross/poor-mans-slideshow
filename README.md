@@ -92,7 +92,7 @@ sudo nmcli connection modify "Shared-Ethernet" ipv4.addresses 192.168.50.1/24
 sudo nmcli connection up "Shared-Ethernet"
 ```
 >[!WARNING]
->If you are connected to the Pi using SSH, the final command will cause it to disconnect from the network you are on. Plug your device directly into the Pi after running the last command to get an IP address and ssh to the Pi using the IP address in the second command.
+>If you are connected to the Pi using SSH, the final command will cause it to disconnect from the network you are on. Plug your device directly into the Pi after running the last command to get an IP address then ssh to the Pi using the IP address in the second command.
 
 ## Step 8
 Reboot your Pi and enjoy the Poor Man's Slideshow.
